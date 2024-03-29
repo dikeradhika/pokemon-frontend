@@ -31,7 +31,6 @@ function App() {
 
   return (
     <>
-    {value}
         {
           pokemons.map(function (data, index){
             return <PokeCard name={data.name} url={`https://raw.githubusercontent.com/PokeAPI/sprites/50dfe77b366c33987d05f3bceaa46401f8cb5c34/sprites/pokemon/other/dream-world/${index + 1}.svg`} />
