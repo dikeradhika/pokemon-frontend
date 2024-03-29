@@ -4,7 +4,6 @@ import PokeCard from './PokeCard';
 import axios from 'axios';
 
 function App() {
-  let [value, setfirst] = useState("default_value")
   // let pokemons = [
   //   {name: "Pikachu", url: "https://raw.githubusercontent.com/PokeAPI/sprites/50dfe77b366c33987d05f3bceaa46401f8cb5c34/sprites/pokemon/other/dream-world/25.svg"},
   //   {name: "Charmendar", url: "https://raw.githubusercontent.com/PokeAPI/sprites/50dfe77b366c33987d05f3bceaa46401f8cb5c34/sprites/pokemon/other/dream-world/5.svg"},
